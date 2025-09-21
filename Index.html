@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Tugas 2 Adli</title>
+</head>
+
+<body>
+    <form>
+        <header>
+            <h1>Formulir Pendaftaran</h1>
+        </header>
+        <fieldset>
+            <legend>
+                <h3>Akun</h3>
+            </legend>
+            <form action="#">
+                <div class="label">
+                    <label for="fname">Nama lengkap:</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="Nama Lengkap"><br><br>
+
+                    <label for="Email">Email:</label>
+                    <input type="email" name="Email" id="Email" placeholder="Email"> <br><br>
+
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass" placeholder="Password"><br><br>
+
+                    <label for="pass">Konfirmasi Password:</label>
+                    <input type="Konfirmasi-password" name="pass" id="kpass" placeholder="Password"><br><br>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h3>Data</h3>
+            </legend>
+            <div class="label">
+                <label for="Jurusan">Jurusan</label><br>
+                <select name="Pendidikan" id="Jurusan">
+                    <option value="Jurusan">-- Pilih Jurusan --</option>
+                    <option>Psikologi</option>
+                    <option>Perpustakaan dan Sains Informasi</option>
+                    <option>Kesehatan Masyarakat</option>
+                    <option>Ilmu Politik</option>
+                    <option>Hukum</option>
+                    <option>Keperawatan</option>
+
+                </select>
+                <label for="Alamat">Alamat:</label><br>
+                <textarea name="Alamat" id="alamat"></textarea><br><br>
+
+                <label for="gender">Jenis Kelamin:</label>
+                <div class="radio-kelamin">
+                    <div class="radio-item-kelamin">
+                        <input type="radio" name="gender" id="gender"> Perempuan
+                    </div>
+                    <div class="radio-item-kelamin">
+                        <input type="radio" name="gender" id="gender">Laki-laki
+                    </div>
+                </div>
+                <br>
+
+                <label for="Hobi">Hobi:</label>
+                <div class="Hobi">
+                    <div class="Hobi-Item"><input type="checkbox" name="Hobi" id="menghitung">
+                        <label for="menghitung">Menghitung</label>
+                    </div>
+
+                    <div class="Hobi-Item"><input type="checkbox" name="Hobi" id="Bermain-Game">
+                        <label for="Bermain-Game">Bermain Game</label>
+                    </div>
+
+                    <div class="Hobi-Item"><input type="checkbox" name="Hobi" id="Travel">
+                        <label for="Travel">Travel</label>
+                    </div>
+
+                    <div class="Hobi-Item"><input type="checkbox" name="Hobi" id="Futsal">
+                        <label for="Futsal">Futsal</label>
+                    </div>
+
+                    <div class="Hobi-Item"><input type="checkbox" name="Hobi" id="Lari">
+                        <label for="Lari">Lari</label>
+                    </div>
+                </div>
+                <br>
+                <div class="button">
+                    <input type="submit" value="Registrasi">
+                    <input type="reset" value="Batal">
+                </div>
+            </div>
+    </form>
+    </form>
+    </fieldset>
+</body>
+
+</html>
